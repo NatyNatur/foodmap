@@ -26,7 +26,8 @@ hr:after {
 
 .btnsearch {
 	background-color: #F7B617;
-	font-size: 1.5rem;
+	font-size: 1.5em;
+	height: auto;
 }
 
 iframe {
@@ -76,6 +77,6 @@ iframe {
 }
 
 /* dejo ocultos los div contenedores de las imágenes */
-#chilean, #mexican, #peruvian {
+#mexican, #peruvian {
 	display: none;
 }
