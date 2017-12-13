@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodMap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Enlazo jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body class="center-align">
+  <!-- vista splash -->
+  <div id="splash" style="display:none;" class="col s12 m12 l12">
+    <h1 class="title">FoodMap</h1>
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+  </div>
+
+<div class="container">
+  <!-- contenido fijo -->
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <h2 class="fixedTitle">FoodMap</h2>
+      <hr class="lineSquare">
+    </div>
+  </div>
+  <!-- Fila con mapa -->
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2799.4228013666457!2d-70.6252916485473!3d-33.44687013188456!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1513093403334" width="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div> <!-- cierro col -->
+  </div> <!-- cierro fila -->
+
+  <div class="row">
+    <div class="col s12 m12">
+      <h4>Comida cerca de ti</h4>
+      <!-- Dropdown Trigger -->
+      <a class='dropdown-button btn btnsearch' href='#' data-activates='dropdown1'>Filtrar restaurantes <i class="material-icons medium">search</i></a>
+      <!-- Dropdown Structure -->
+      <div class="searching">
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#chilean">Comida chilena</a></li>
+          <li><a href="#!">Comida mexicana</a></li>
+          <li><a href="#!">Comida peruana</a></li>
+        </ul>
+      </div>
+    </div> <!-- cierro col -->
+  </div> <!-- cierro fila -->
+
+  <div id="chilean" class="row">
+    <!-- Galindo -->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/ch/galindo.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Galindo <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://galindo.cl/">Sitio web</a> </span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Galindo<i class="material-icons right">close</i></span>
+        <p>Ubicado en Dardignac 098, Santiago, Providencia, Región Metropolitana</p>
+      </div>
+    </div>
+<!-- Los buenos muchachos -->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/ch/losbuenosmuchachos.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Los Buenos Muchachos <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://www.lbm.cl/">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Los Buenos Muchachos <i class="material-icons right">close</i></span>
+        <p>Ubicado en Ricardo Cumming 1031, Santiago, Región Metropolitana</p>
+      </div>
+    </div>
+<!-- La casa vieja -->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/ch/lacasavieja.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">La Casa Vieja <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://lacasavieja.cl/">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">La Casa Vieja<i class="material-icons right">close</i></span>
+        <p>Ubicado en Av. Manuel Montt 1631, Providencia, Región Metropolitana</p>
+      </div>
+    </div>
+  </div> <!-- cierro #chilean -->
+
+  <div id="mexican" class="row">
+    <!-- Ijole-->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/mx/ijole.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Ijole <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://ijole.cl/">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Ijole<i class="material-icons right">close</i></span>
+        <p>Ubicado en Manuel Antonio Matta 366, Santiago, Región Metropolitana</p>
+      </div>
+    </div>
+<!-- Los Cuates -->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/mx/loscuates.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Los Cuates <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://www.restaurant-loscuates.cl/">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Los Cuates<i class="material-icons right">close</i></span>
+        <p>Ubicado en Av. Manuel Montt 235, Santiago, Región Metropolitana</p>
+      </div>
+    </div>
+<!-- Mexa -->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/mx/mexa.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Mexa <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://mexa.cl/">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Mexa<i class="material-icons right">close</i></span>
+        <p>Ubicado en Av Vitacura 2653, Las Condes, Región Metropolitana</p>
+      </div>
+    </div>
+  </div> <!-- cierro #mexican -->
+
+  <div id="peruvian" class="row">
+    <!-- Ají amarillo-->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/pe/ajiamarillo.png">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Ají Amarillo <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://www.ajiamarillo.cl/">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Ají Amarillo<i class="material-icons right">close</i></span>
+        <p>Ubicado en Av. Manuel Montt 1719, Providencia, Santiago, Región Metropolitana</p>
+      </div>
+    </div>
+<!-- Machi Picchu Restaurant -->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/pe/machupicchurest.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Machi Picchu Restaurant <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://machupicchurest.cl//">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Machi Picchu Restaurant<i class="material-icons right">close</i></span>
+        <p>Ubicado en Av. Francisco Bilbao 1256, Providencia, Región Metropolitana</p>
+      </div>
+    </div>
+<!-- Mexa -->
+    <div class="card medium col s12 m4 l4">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="assets/img/pe/misturadelperu.jpg">
+      </div>
+      <div class="card-content">
+        <p class="card-title activator grey-text text-darken-4">Mistura del Perú <i class="material-icons right">more_vert</i></p>
+        <span class="siteAndInfo"><a href="http://misturadelperu.cl//">Sitio web</a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Mistura del Perú<i class="material-icons right">close</i></span>
+        <p>Ubicado en Sta Isabel 0496, Providencia, Región Metropolitana</p>
+      </div>
+    </div>
+  </div> <!-- cierro #peruvian -->
+
+</div> <!-- cierro container -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

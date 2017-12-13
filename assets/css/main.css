@@ -1,0 +1,81 @@
+body {
+	background-color: #2E2F29;
+	color: #F7B617;
+}
+
+
+.title {
+	margin-top: 45vh;
+}
+
+#splash {
+	height: 100vh;
+}
+/*
+hr:before {
+	width: 1em;
+	height: 1em;
+	border: 3px solid #FFF;
+}
+
+hr:after {
+	width: 1em;
+	height: 1em;
+	border: 3px solid #FFF;
+}*/
+
+.btnsearch {
+	background-color: #F7B617;
+	font-size: 1.5rem;
+}
+
+iframe {
+	width: 100%;
+	height: 40vh;
+}
+
+.activator {
+	width: 100%;
+	height: 100%;
+}
+
+.card .card-content {
+	padding: 1.75em;
+}
+
+.card .card-content .card-title {
+	font-size: 2em;
+	line-height: 1em;
+	/*text-align: left;*/
+}
+
+.card .card-reveal {
+	padding: 1.5em;
+	text-align: left;
+}
+
+.card .card-reveal .card-title {
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+.card .card-reveal p {
+	font-size: 2em;
+}
+
+.siteAndInfo {
+	font-size: 1.5em;
+}
+
+.card.medium .card-image, .card.large .card-image {
+	max-height: 70%;
+}
+
+.card .card-image img {
+	min-height: 190px;
+}
+
+/* dejo ocultos los div contenedores de las imágenes */
+#chilean, #mexican, #peruvian {
+	display: none;
+}
