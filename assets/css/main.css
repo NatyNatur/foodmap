@@ -3,13 +3,12 @@ body {
 	color: #F7B617;
 }
 
-
 .title {
 	margin-top: 45vh;
 }
 
 #splash {
-	height: 100vh;
+	height: 50vh;
 }
 /*
 hr:before {
@@ -24,9 +23,13 @@ hr:after {
 	border: 3px solid #FFF;
 }*/
 
+#foodMenu {
+	width: 90%;
+}
+
 .btnsearch {
 	background-color: #F7B617;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	height: auto;
 }
 
@@ -76,7 +79,5 @@ iframe {
 	min-height: 190px;
 }
 
-/* dejo ocultos los div contenedores de las imágenes */
-#mexican, #peruvian {
-	display: none;
-}
+
+

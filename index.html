@@ -38,21 +38,10 @@
   <div class="row">
     <div class="col s12 m12">
       <h4>Comida cerca de ti</h4>
-      <!-- Dropdown Trigger -->
-      <a class='dropdown-button btn btnsearch' href='#' data-activates='dropdown1' id="dropdownMenu">Filtrar restaurantes <i class="material-icons medium">search</i></a>
-      <!-- Dropdown Structure -->
-      <div class="searching">
-        <ul id='dropdown1' class='dropdown-content dropdownMenu'>
-          <li><a id="#chileanFood" value="chilena">Comida chilena</a></li>
-          <li><a id="#mexicanFood" value="mexicana">Comida mexicana</a></li>
-          <li><a id="#peruvianFood" value="peruana">Comida peruana</a></li>
-        </ul>
-      </div>
-    </div> <!-- cierro col -->
-  </div> <!-- cierro fila -->
 
+<!-- Menú -->
   <div class="menu_to_select">
-    <select id="foodMenu" class="btn btnsearch">
+    <select id="foodMenu" class="btn">
       <option value="0">Filtrar restaurantes</option>
       <option value="chilena">Comida chilena</option>
       <option value="mexicana">Comida mexicana</option>
@@ -61,7 +50,8 @@
   </div>
 
 <div id="foodContainer">
-  <div id="chilean" class="row food">
+
+
 <!-- Galindo Modal -->
   <div id="galindomodal" class="modal modal-fixed-footer">
     <div class="modal-content">
@@ -70,17 +60,6 @@
       <a href="http://galindo.cl/">Sitio web </a>
     </div>
   </div>
-<!-- Galindo -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/ch/galindo.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#galindomodal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Galindo</span>
-        <p>Ubicado en Dardignac 098, Santiago, Providencia, Región Metropolitana</p>
-      </div>
-    </div>
 <!-- Los Buenos Muchachos Modal -->
   <div id="losbuenosmodal" class="modal modal-fixed-footer">
     <div class="modal-content">
@@ -89,17 +68,6 @@
       <a href="http://www.lbm.cl/">Sitio web </a>
     </div>
   </div>
-<!-- Los Buenos Muchachos -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/ch/losbuenosmuchachos.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#losbuenosmodal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Los Buenos Muchachos</span>
-        <p>Ubicado en Ricardo Cumming 1031, Santiago, Región Metropolitana<</p>
-      </div>
-    </div>
 <!-- La Casa Vieja Modal -->
   <div id="casaviejamodal" class="modal modal-fixed-footer">
     <div class="modal-content">
@@ -108,99 +76,40 @@
       <a href="http://lacasavieja.cl/">Sitio web</a>
     </div>
   </div>
-<!-- La Casa Vieja -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/ch/lacasavieja.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#casaviejamodal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">La Casa Vieja</span>
-        <p>Ubicado en Av. Manuel Montt 1631, Providencia, Región Metropolitana</p>
-      </div>
-    </div>
-  </div> <!-- cierro #chilean -->
 
-  <div id="mexican" class="row food">
 <!-- Ijole Modal -->
-  <div id="ijoleModal" class="modal modal-fixed-footer">
+  <div id="ijolemodal" class="modal modal-fixed-footer">
     <div class="modal-content">
       <h4>Ijole</h4>
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2799.4228013666457!2d-70.6252916485473!3d-33.44687013188456!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1513093403334" width="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       <a href="http://ijole.cl/">Sitio web</a>
     </div>
   </div>
-<!-- Ijole -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/mx/ijole.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#ijoleModal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Ijole</span>
-        <p>Manuel Antonio Matta 366, Santiago, Región Metropolitana</p>
-      </div>
-    </div>
 <!-- Los Cuates Modal -->
-  <div id="losCuatesModal" class="modal modal-fixed-footer">
+  <div id="loscuatesmodal" class="modal modal-fixed-footer">
     <div class="modal-content">
       <h4>Los Cuates</h4>
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2799.4228013666457!2d-70.6252916485473!3d-33.44687013188456!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1513093403334" width="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       <a href="http://www.restaurant-loscuates.cl">Sitio web</a>
     </div>
   </div>
-<!-- Los Cuates -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/mx/loscuates.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#losCuatesModal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Los Cuates</span>
-        <p>Av. Manuel Montt 235, Santiago, Región Metropolitana</p>
-      </div>
-    </div>
 <!-- Mexa Modal -->
-  <div id="mexaModal" class="modal modal-fixed-footer">
+  <div id="mexamodal" class="modal modal-fixed-footer">
     <div class="modal-content">
       <h4>Mexa</h4>
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2799.4228013666457!2d-70.6252916485473!3d-33.44687013188456!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1513093403334" width="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       <a href="http://mexa.cl/">Sitio web</a>
     </div>
   </div>
-<!-- Mexa -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/mx/mexa.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#mexaModal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Mexa</span>
-        <p>Av Vitacura 2653, Las Condes, Región Metropolitana</p>
-      </div>
-    </div>
-  </div> <!-- cierro #mexican -->
 
-  <div id="peruvian" class="row food">
 <!-- Ají Amarillo Modal -->
-  <div id="ajiModal" class="modal modal-fixed-footer">
+  <div id="ajimodal" class="modal modal-fixed-footer">
     <div class="modal-content">
       <h4>Ají Amarillo</h4>
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2799.4228013666457!2d-70.6252916485473!3d-33.44687013188456!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1513093403334" width="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       <a href="http://www.ajiamarillo.cl/">Sitio web</a>
     </div>
   </div>
-<!-- Ají Amarillo -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/pe/ajiamarillo.png">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#ajiModal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Ají Amarillo</span>
-        <p>Manuel Antonio Matta 366, Santiago, Región Metropolitana</p>
-      </div>
-    </div>
 <!-- Machu Picchu Modal -->
   <div id="machuModal" class="modal modal-fixed-footer">
     <div class="modal-content">
@@ -209,17 +118,6 @@
       <a href="http://machupicchurest.cl/">Sitio web</a>
     </div>
   </div>
-<!-- Machu Picchu -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/pe/machupicchurest.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#machuModal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Machu Picchu</span>
-        <p>Av. Francisco Bilbao 1256, Providencia, Región Metropolitana</p>
-      </div>
-    </div>
 <!-- Mistura del Perú Modal -->
   <div id="misturaModal" class="modal modal-fixed-footer">
     <div class="modal-content">
@@ -228,18 +126,7 @@
       <a href="http://misturadelperu.cl/">Sitio web</a>
     </div>
   </div>
-<!-- Mistura del Perú -->
-    <div class="card col s12 m4 l4">
-      <div class="card-image">
-        <img src="assets/img/pe/misturadelperu.jpg">
-        <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-1 modal-trigger" href="#misturaModal"><i class="material-icons">my_location</i></a>
-      </div>
-      <div class="card-content">
-        <span class="card-title">Mistura del Perú</span>
-        <p>Sta Isabel 0496, Providencia, Región Metropolitana</p>
-      </div>
-    </div>
-  </div> <!-- cierro #peruvian -->
+
 </div> <!-- cierro cont de comida -->
 </div> <!-- cierro container fijo -->
 
